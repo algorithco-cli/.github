@@ -1,4 +1,12 @@
-# AlgorithcoGuard 🛡️
+<p align="center">
+  <img src="./logo.svg" width="160" height="160" alt="AlgorithcoGuard logo" />
+</p>
+
+<h1 align="center">AlgorithcoGuard 🛡️</h1>
+
+<p align="center">
+  <strong>Guard layer of <a href="https://github.com/algorithco">Algorithco</a> — Builders of future technology</strong>
+</p>
 
 > **Official notice:** **AlgorithcoGuard** (`@algorithcoguard`) belongs to the official **Algorithco** company and organization — [@algorithco](https://github.com/algorithco).
 >

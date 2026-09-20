@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 400 400" role="img" aria-label="Algorith logo">
+  <title>Algorith — Builders of future technology</title>
+  <!-- Dark background matching Image 1 -->
+  <rect width="400" height="400" fill="#0A0A14"/>
+  <!-- Left chevron ">"  — white / faint lavender -->
+  <path d="M 98 102 L 195 200 L 98 298"
+        fill="none"
+        stroke="#F0EDFF"
+        stroke-width="62"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="1"/>
+  <!-- Right colon ":" — two purple capsules -->
+  <rect x="238" y="92" width="68" height="98" rx="34" ry="34" fill="#7A6CFF"/>
+  <rect x="238" y="210" width="68" height="98" rx="34" ry="34" fill="#7A6CFF"/>
+</svg>
