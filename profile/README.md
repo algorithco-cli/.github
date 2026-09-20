@@ -1,35 +1,91 @@
 <p align="center">
-  <img src="./logo.svg" width="160" height="160" alt="AlgorithcoGuard logo" />
+  <img src="./logo.svg" width="140" height="140" alt="AlgorithcoGuard logo" />
 </p>
 
-<h1 align="center">AlgorithcoGuard 🛡️</h1>
+<h1 align="center">AlgorithcoGuard</h1>
 
 <p align="center">
-  <strong>Guard layer of <a href="https://github.com/algorithco">Algorithco</a> — Builders of future technology</strong>
+  <strong>Security and reliability guard for <a href="https://github.com/algorithco">Algorithco</a> — Builders of future technology</strong><br/>
+  <em>Policies • Guardrails • Hardening • Reusable workflows</em>
 </p>
 
-> **Official notice:** **AlgorithcoGuard** (`@algorithcoguard`) belongs to the official **Algorithco** company and organization — [@algorithco](https://github.com/algorithco).
->
-> If you found this org, you are in the right place. Everything here is maintained by the Algorithco team.
+<p align="center">
+  <a href="https://github.com/algorithcoguard"><img src="https://img.shields.io/badge/org-algorithcoguard-0A0A14?logo=github&logoColor=white" alt="org" /></a>
+  <a href="https://github.com/algorithco"><img src="https://img.shields.io/badge/main-algorithco-black?logo=github&logoColor=white" alt="main org" /></a>
+  <a href="https://github.com/algorithcoguard/.github"><img src="https://img.shields.io/badge/profile-.github-1e81b0" alt="profile" /></a>
+  <img src="https://img.shields.io/badge/security-guard-7A6CFF" alt="security" />
+  <img src="https://img.shields.io/badge/location-Uzbekistan-lightgrey" alt="location" />
+</p>
 
-## Who we are
+> **Official organization.** `@algorithcoguard` is the dedicated guard/security organization of [`@algorithco`](https://github.com/algorithco). All repositories and assets under this org are owned, reviewed, and maintained by the Algorithco core team.
 
-**AlgorithcoGuard** is the guard / security-focused organization of [Algorithco](https://github.com/algorithco) — *Builders of future technology*.
+---
 
-- 🏢 Main company org: [@algorithco](https://github.com/algorithco)
-- 🛡️ This org: [@algorithcoguard](https://github.com/algorithcoguard)
+## About
 
-## What lives here
+**AlgorithcoGuard** exists to make every Algorithco project secure by default and reliable in production. Where `algorithco` ships products, `algorithcoguard` ships the constraints that keep them safe — policies, templates, reusable workflows, and hardening guides that are enforced across the entire ecosystem.
 
-- Guardrails, security tooling, policies, and templates used across Algorithco projects
-- Shared GitHub health files and reusable workflows
-- Future public security research and hardening guides
+We sit between product and platform: we define the non-negotiables (secret scanning, least privilege, supply-chain provenance, reproducible builds) and provide the tooling to satisfy them without slowing teams down.
+
+## Mission
+
+- **Secure by default** — every new repository inherits guardrails; security is not an afterthought.
+- **Reliable in production** — health checks, observability, and failure-mode thinking baked into templates.
+- **Consistent at scale** — one source of truth for community health files, workflows, and policies across all orgs.
+
+## Scope
+
+| Area | What we provide | Where it enforces |
+|------|-----------------|-------------------|
+| **Guardrails** | Branch protection, CODEOWNERS, secret scanning, push protections | All `algorithco` / `algorithcoguard` repos |
+| **Policies & templates** | `SECURITY.md`, `CONTRIBUTING.md`, issue/PR templates, license headers | Org-wide community health (`.github`) |
+| **Reusable workflows** | CodeQL, Gitleaks, Trivy, ESLint/Prettier, `tsc`, Docker provenance | GitHub Actions (central, versioned) |
+| **Hardening guides** | W5 signer isolation, `x-api-key` + `initData` HMAC, rate limits, non-root containers | Referenced by `p2p`, `lms`, `algorithvoice` |
+| **Research** | Public threat models, supply-chain notes, and post-mortems | Published here when ready |
+
+> This org currently hosts the profile and health files. Guardrail repos and workflow catalog will appear here as they graduate from the main org.
+
+## How we work
+
+- **Least privilege & isolation** — signer secrets never leave `signer`, `x-api-key` between services, no env baked into images.
+- **Provenance & reproducibility** — Docker builds with attestations, `checksums.txt` + cosign, Conventional Commits + release-please.
+- **Detection before merge** — CodeQL, Gitleaks, Trivy, and `npm audit` are blocking checks on every PR (see `p2p` as reference implementation).
+- **Small, senior, accountable** — guard changes are PR → green CI → review → squash-merge; no direct pushes to `main`.
 
 ## Trust & authenticity
 
-To protect against impersonation:
+To prevent impersonation, only two organizations are official:
 
-- ✅ Official: `github.com/algorithco` and `github.com/algorithcoguard`
-- ⚠️ Anything else claiming to be Algorithco is not us
+- **Product org:** [`github.com/algorithco`](https://github.com/algorithco)
+- **Guard org:** [`github.com/algorithcoguard`](https://github.com/algorithcoguard) (this org)
 
-Questions? Open an issue in this repo or contact the Algorithco team via the main org.
+Any other account or organization claiming to be Algorithco is not affiliated.
+
+**Verify you are in the right place:**
+1. Check the URL is exactly `github.com/algorithcoguard`
+2. Check the org avatar matches the purple `>:` logo on `#0A0A14` (see `profile/logo.svg`)
+3. Cross-reference from the main org: [`algorithco` profile links here](https://github.com/algorithco)
+
+## Community health
+
+This repository ([`algorithcoguard/.github`](https://github.com/algorithcoguard/.github)) provides org-wide defaults:
+
+- `profile/README.md` — this page (rendered on the org overview)
+- `SECURITY.md` / `CONTRIBUTING.md` / `CODE_OF_CONDUCT.md` — applied to repos without their own file
+- Issue and PR templates — (added as needed)
+
+Repos with their own file override the default; the default is the fallback.
+
+## Contact
+
+- **Main org:** [@algorithco](https://github.com/algorithco) — product issues and partnerships
+- **This org:** [Open an issue here](https://github.com/algorithcoguard/.github/issues) for guard/policy questions
+
+For security disclosures, use the **Security** tab of the affected repository (private advisory) — never file a public issue for a vulnerability.
+
+---
+
+<p align="center">
+  <sub>© 2026 Algorithco — Builders of future technology · Guard operated by Algorithco core team · Uzbekistan · Working worldwide</sub><br/>
+  <sub><a href="https://github.com/algorithco">algorithco</a> · <a href="https://github.com/algorithcoguard">algorithcoguard</a> · <a href="https://github.com/algorithcoguard/.github/blob/main/profile/README.md">profile source</a></sub>
+</p>
