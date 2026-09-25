@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A14,50:2A1B5E,100:7A6CFF&height=200&section=header&text=algorithco-cli&fontSize=54&fontColor=F4F2FF&desc=Algo%20%E2%80%94%20intelligent%20control%20layer%20for%20CLI%20coding%20agents&descSize=17&descAlignY=62&animation=fadeIn" width="100%" alt="algorithco-cli header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A14,50:2A1B5E,100:7A6CFF&height=250&section=header&text=algorithco-cli&fontSize=44&fontColor=F4F2FF&desc=Algo%20%E2%80%94%20intelligent%20control%20layer%20for%20CLI%20coding%20agents&descSize=15&descAlignY=80&animation=fadeIn" width="100%" alt="algorithco-cli header" />
 
 <p align="center">
   <a href="https://github.com/algorithco-cli"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1400&color=7A6CFF&center=true&vCenter=true&width=760&lines=Secure+by+default;Reliable+in+production;Consistent+at+scale;Contracts+%2B+evidence%2C+always" alt="typing principles" /></a>
