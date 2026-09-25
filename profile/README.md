@@ -47,21 +47,6 @@
   <a href="../../security/advisories/new"><img src="https://img.shields.io/badge/Report_vulnerability-critical?style=for-the-badge&logo=dependabot&logoColor=white" alt="security" /></a>
 </p>
 
-## 🧭 How it works
-
-```mermaid
-flowchart LR
-    A["🤖 CLI Agent"] -->|"proposes action"| B["🛡️ Algo Guard"]
-    B -->|"policy check"| C{"allow / deny /\nredact?"}
-    C -->|"allow"| D["💻 Shell & Tools"]
-    C -->|"deny"| E["⛔ Blocked + evidence"]
-    D -->|"receipt"| F["📦 Audit log"]
-    E --> F
-    style B fill:#7A6CFF,stroke:#0A0A14,color:#fff
-    style C fill:#1B1533,stroke:#7A6CFF,color:#E6E3FF
-    style F fill:#0A0A14,stroke:#7A6CFF,color:#E6E3FF
-```
-
 ## 🛠️ Built with
 
 <p align="center">
