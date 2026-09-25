@@ -2,7 +2,7 @@
   <img src="./logo.svg" width="140" height="140" alt="AlgorithcoGuard logo" />
 </p>
 
-<h1 align="center">AlgorithcoGuard</h1>
+<h1 align="center">Algo</h1>
 
 <p align="center">
   <strong>Security and reliability guard for <a href="https://github.com/algorithco">Algorithco</a> — Builders of future technology</strong><br/>
