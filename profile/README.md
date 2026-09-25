@@ -10,7 +10,7 @@
 
 <p align="center">
   <strong>Policy-enforced guard between CLI agents and the shell.</strong><br />
-  Part of <a href="https://github.com/algorithco">Algorithco</a> — builders of future technology.
+  🏛️ An official organization of <a href="https://github.com/algorithco"><strong>Algorithco</strong></a> — builders of future technology.
 </p>
 
 <p align="center">
@@ -76,11 +76,14 @@ flowchart LR
 | 📈 **Reliable in production** | Health checks, observability, and failure-mode thinking in every template |
 | 🧩 **Consistent at scale** | One source of truth for policies, workflows, and community health files |
 
-## 🛡️ Trust
+## 🛡️ Official organizations
 
-Only [`github.com/algorithco`](https://github.com/algorithco) and
-[`github.com/algorithco-cli`](https://github.com/algorithco-cli) are official.
-Anything else claiming to be Algorithco is not affiliated.
+| | Organization | Role |
+|---|---|---|
+| 🏢 | [**@algorithco**](https://github.com/algorithco) | Owner — products, platform, partnerships |
+| 🛡️ | [**@algorithco-cli**](https://github.com/algorithco-cli) | This org — CLI guard, policies, tooling |
+
+Only these two are official. Anything else claiming to be Algorithco is not affiliated.
 
 <details>
 <summary><strong>How to verify you're in the right place</strong></summary>
